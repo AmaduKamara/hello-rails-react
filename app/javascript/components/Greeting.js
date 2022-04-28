@@ -14,12 +14,12 @@ const Greeting = () => {
   };
   return (
     <div className="mt-20 flex flex-col items-center">
-      <p className=" font-bold">{greeting}</p>
+      <h1 className=" font-bold">{greeting}</h1>
       <button
         onClick={refreshPage}
-        className="bg-sky-500 p-2 mt-4 rounded text-slate-50"
+        className="bg-teal-500 py-3 px-6 mt-4 rounded text-white"
       >
-        Get another greeting
+        Get a greeting
       </button>
     </div>
   );
